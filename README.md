@@ -6,7 +6,12 @@
 
 ## 📌 Dashboard Preview
 
-![IPL Dashboard](Screenshot.png)
+## 📊 IPL Analysis Dashboard (2008 - 2025)
+
+Here’s a snapshot of the interactive Power BI dashboard created using IPL data from 2008 to 2025:
+
+![IPL Dashboard](https://raw.githubusercontent.com/shekhar9199/IPL-Analysis-in-Power-BI-2008---2025/main/Screenshot%20(751).png)
+
 
 ---
 
