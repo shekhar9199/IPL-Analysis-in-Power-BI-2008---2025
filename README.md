@@ -1,91 +1,88 @@
-🏏 IPL Analysis in Power BI (2008 – 2025)
-A complete Power BI dashboard project visualizing the history and insights of the Indian Premier League (IPL) from 2008 to 2025. This project showcases deep sports analytics using interactive visuals, DAX measures, and insightful KPIs — ideal for data-driven decision-making and performance benchmarking.
+# 🏏 IPL Analysis in Power BI (2008 – 2025)
 
-📊 Built entirely in Power BI Desktop, using multiple datasets and custom logic.
+> 📊 A professional Power BI dashboard project analyzing the **Indian Premier League (IPL)** from 2008 to 2025, highlighting key insights, champions, top performers, and match stats using dynamic visuals and DAX calculations.
 
+---
 
-📸 Project Preview
-2025 IPL Summary Dashboard
+## 📌 Dashboard Preview
 
-🎯 Key Insights from the Dashboard
-🏆 Champions of 2025: Royal Challengers Bangalore
+![IPL Dashboard](Screenshot.png)
 
-🥈 Runner-Up: Punjab Kings
+---
 
-📅 Total Matches Played: 74
+## 🏆 2025 Season Summary
 
-🧮 Total Sixes & Fours: 1296 & 2251
+| Metric | Value |
+|--------|-------|
+| **Champion** | 🟥 Royal Challengers Bangalore |
+| **Runner-Up** | 🟦 Punjab Kings |
+| **Total Matches** | 74 |
+| **Total Sixes** | 1296 |
+| **Total Fours** | 2251 |
 
+---
 
+## 👑 Top Player Highlights
 
-🎯 Top Player Stats:
+- 🟠 **Orange Cap** (Most Runs): `B Sai Sudharsan` – *759 runs*
+- 🟣 **Purple Cap** (Most Wickets): `M Prasidh Krishna` – *25 wickets*
+- 🟥 **Most Fours**: `88`
+- 🟦 **Most Sixes**: `N Pooran` – *40 sixes*
 
-Orange Cap (Most Runs) – B Sai Sudharsan (759)
+---
 
-Purple Cap (Most Wickets) – M Prasidh Krishna (25)
+## 📋 Features
 
-Most Fours: 88
+- 📌 **Interactive Dashboard** with slicers and team filters
+- 📈 **Dynamic Points Table** – wins, losses, points auto-updated per season
+- 🧠 **Smart KPIs** – auto-rotating Orange/Purple Cap, Most 4s/6s
+- 🎨 **Conditional Formatting** – custom icons for caps and team badges
 
-Most Sixes: N Pooran (40)
+---
 
+## 🧠 Skills Demonstrated
 
+✅ **Power BI** – end-to-end dashboard design  
+✅ **Power Query** – data cleaning, type handling, transformation  
+✅ **DAX Measures** – KPIs, ranking, filtering logic  
+✅ **Data Modeling** – relationship setup across match, player & teams  
+✅ **GitHub Project Publishing** – portfolio-ready showcase
 
-🧾 Dynamic Points Table: Team-wise win/loss/points breakdown
+---
 
-🧠 Smart conditional formatting and icons for caps and positions
+## 📂 Files Included
 
-🧠 Core Skills Demonstrated
-📐 Data Modeling – Relationships across match, player, team, and ball-level data
+| File | Description |
+|------|-------------|
+| `ipl 2008 - 2025 project.pbix` | Full Power BI file |
+| `Screenshot.png` | Preview of the dashboard |
+| `README.md` | This document |
 
-🧹 Power Query – Data cleaning, null handling, type casting, and filtering
+---
 
-🧠 DAX – Custom KPIs, ranking measures, conditional logic for visuals
+## 📈 Data Sources
 
-📊 Visual Design – Intuitive UI with slicers, badges, and club logos
+- Match-level data from IPL (2008–2025)
+- Player stats and performance
+- Team details
+- Ball-by-ball actions
 
-📂 GitHub Integration – Project versioned and hosted publicly for review
+---
 
+## 🚀 Future Improvements
 
+- 🔁 Add page navigation with bookmarks
+- 📱 Publish to Power BI Web for mobile view
+- 🔮 Integrate ML for win prediction
 
-🧮 Measures & Calculations Used
-Measure	Description
-Total 6	Total number of sixes hit in a season
-Total 4	Total number of boundaries
-Top Six Player	Player with highest six count
-Total Matches, Total Venues, Half Centuries	Season KPIs
-Dynamic Points Table	Win/Loss calculated using DAX per season
+---
 
-Additional calculated columns were created using Power Query and Conditional Columns to identify Finals and handle missing data.
+## 👨‍💻 Author
 
-📁 Files in This Repo
-File	Description
-ipl 2008 - 2025 project.pbix	Full Power BI project file
-README.md	This documentation
-(Optional) data/ folder	[If you want to upload CSV files used in the project]
+**Shekhar Suman**  
+🎓 Data Analyst | Power BI Enthusiast  
+🔗 [GitHub Profile](https://github.com/shekhar9199)  
+📧 shekhar.email@example.com *(replace with yours)*
 
+---
 
-
-🧪 Datasets Used
-ipl_matches_data.csv: Match-level data from 2008 to 2025
-
-ball_by_ball_data.csv: Ball-level data including runs, wickets
-
-teams_data.csv: Team information and mapping
-
-players-data-updated.csv: Player records
-
-
-
-💡 Future Improvements
-📈 Add season-by-season navigation with bookmarks
-
-🔮 Introduce predictive models (e.g., playoff qualification chances)
-
-⏱️ Auto-refresh using Power BI Service
-
-📲 Publish to Power BI Web for mobile view
-
-👨‍💻 Author
-Shekhar Suman
-📫 [LinkedIn/GitHub Portfolio Link Here]
-📌 Design & developed entirely using Power BI Desktop
