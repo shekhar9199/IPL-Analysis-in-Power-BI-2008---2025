@@ -10,7 +10,7 @@
 
 Here’s a snapshot of the interactive Power BI dashboard created using IPL data from 2008 to 2025:
 
-![IPL Dashboard](https://raw.githubusercontent.com/shekhar9199/IPL-Analysis-in-Power-BI-2008---2025/main/Screenshot%20(751).png)
+![IPL Dashboard](https://raw.githubusercontent.com/shekhar9199/IPL-Analysis-in-Power-BI-2008---2025/main/Dashboard%20Screenshot.png)
 
 
 ---
